@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
                     ArrayList<String> speech2Text = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
 
-                    if(speech2Text != null) 
+                    if(speech2Text != null)
                     textDisplay.setText(speech2Text.get(0));
 
                 }
